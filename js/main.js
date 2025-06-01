@@ -143,3 +143,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+
+const b = document.querySelector('.b');
+
+setTimeout(() => {
+    b.style.opacity = '1';
+}, 1000);
